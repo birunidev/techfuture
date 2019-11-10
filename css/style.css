@@ -1,0 +1,1225 @@
+/* General Style */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #091930;
+    color: #DFDFDF;
+    font-family: 'Poppins' !important;
+    overflow-x: hidden;
+    animation: fadein 1.23s ease-out;
+
+}
+
+
+
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+.number-count {
+    margin-top: 30px;
+
+}
+
+.number-count div {
+    margin-bottom: 40px;
+}
+
+.number-count h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #091930 !important;
+}
+
+
+.navbar .navbar-brand {
+    display: block;
+    width: 150px;
+
+
+}
+
+.navbar .navbar-brand img {
+    width: 100%;
+    max-width: 30px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.navbar .navbar-brand span {
+    display: inline-block;
+    transform: translateY(-6px);
+    font-weight: 600;
+}
+
+
+
+.navbar-nav .nav-item a {
+
+    width: 100%;
+    padding: 7px 10px;
+
+}
+
+.navbar-nav .nav-item #sign-in {
+    background: none;
+    border: 1px solid #8790AF;
+    padding: 7px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: .3s ease;
+    color: #E8F4FF;
+}
+
+.navbar-nav .nav-item #sign-up {
+    background: #E8F4FF;
+    padding: 7px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #091930;
+    transition: .3s ease;
+}
+
+.navbar-nav .nav-item #sign-in:hover {
+    background: #E8F4FF;
+    color: #091930;
+}
+
+.navbar-nav .nav-item #sign-up:hover {
+    background: #8790AF;
+
+
+    margin-bottom: -1px;
+}
+
+
+/* Navbar */
+
+
+
+/* Titles */
+
+section h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Jumbotron */
+.jumbotron {
+    position: relative;
+    background: linear-gradient(94deg, rgba(6, 22, 45, 1) 0%, rgba(206, 26, 112, 0) 100%);
+    background: url(../img/alvaro-reyes-KhmfoQEindg-unsplash.jpg) no-repeat;
+    background-size: cover;
+
+    height: 350px;
+}
+
+.jumbotron .gradient {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    background: rgb(6, 22, 45);
+    background: linear-gradient(94deg, rgba(6, 22, 45, 1) 0%, rgba(206, 26, 112, 0) 100%);
+    z-index: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    margin-bottom: 20px;
+}
+
+.jumbotron h1 {
+    margin-top: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #E8F4FF;
+    text-transform: uppercase;
+
+
+
+}
+
+.jumbotron p {
+    color: #DFDFDF;
+}
+
+.jumbotron a {
+    background: #E8F4FF;
+    color: #091930;
+    font-weight: 600;
+    padding: 7px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .3s ease;
+
+}
+
+.jumbotron a:hover {
+    background: rgb(98, 103, 124);
+    color: white;
+}
+
+.jumbotron a i {
+    transform: translateY(0.5px);
+    transform: translateX(0.3px);
+}
+
+/* Jumbotron */
+
+/* Learn more */
+.img-learn-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-learn-wrapper img {
+    max-width: 300px;
+    width: 100%;
+
+}
+
+.learn-text {
+    text-align: center;
+}
+
+.learn-text h4,
+.learn-text p {
+    margin-bottom: 20px;
+}
+
+.learn-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.learn-text p {
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+.learn-text a {
+    color: #091930;
+    background: #E8F4FF;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .4s all ease;
+}
+
+.learn-text a:hover {
+    background: rgb(98, 103, 124);
+    color: white;
+}
+
+
+/* Learn more */
+
+/* List of Courses */
+
+.grid {
+    display: block;
+}
+
+.grid .content-wrapper {
+    width: 100%;
+    height: 230px;
+    max-height: 240px;
+    position: relative;
+}
+
+.photo-profile {
+    margin-bottom: 20px;
+
+}
+
+.photo-profile h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    text-align: center !important;
+}
+
+.photo-profile p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contact-us {
+    margin-bottom: 50px;
+}
+
+.you-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.you-will-gain {
+
+    background: #081527;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    transition: .4s ease;
+
+}
+
+.you-will-gain img {
+    width: 50px;
+}
+
+.you-will-gain h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #8790AF;
+}
+
+.you-will-gain p {
+    line-height: 1.4;
+    color: #DFDFDF !important;
+}
+
+.you-will-gain:hover {
+    box-shadow: 1px 2px 20px rgba(87, 87, 87, 0.3);
+}
+
+
+.img-photo-wrapper {
+    width: 250px;
+    height: 260px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+
+}
+
+.form-group input,
+.form-group textarea,
+.form-group input:focus,
+.form-group textarea:focus {
+    background: #081527;
+    border: none;
+    width: 100% !important;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    margin-bottom: 35px;
+}
+
+.form-container {
+    width: 100%;
+
+}
+
+.form-container button {
+    background: #E8F4FF;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #091930;
+    border: none;
+    border-radius: 20px;
+    transition: .4s ease;
+}
+
+.form-container button:hover {
+    background: rgb(98, 103, 124);
+    color: white;
+}
+
+.wrapper-contact {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #081527;
+    margin-bottom: 30px;
+}
+
+.wrapper-contact .connect {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper-contact .jakarta {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 30px;
+    padding-top: 10px;
+
+}
+
+.wrapper-contact p {
+    margin-bottom: 10px;
+}
+
+.wrapper-icon img {
+    width: 30px;
+    margin: 10px 20px 0 0;
+    float: left;
+}
+
+.wrapper-icon .number {
+    margin-top: 20px;
+    padding-top: 19px;
+}
+
+#businessman img {
+    transform: translateX(-50px);
+}
+
+.img-photo-wrapper img {
+    transform: translateX(-100px);
+    min-width: 200px;
+    max-width: 400px;
+}
+
+#courses {
+    margin-top: 90px !important;
+    margin-bottom: 50px !important;
+}
+
+.grid .content-wrapper .img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.grid .content-wrapper .img-wrapper .bg-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, rgba(196, 196, 196, 1) 100%);
+    z-index: 299;
+}
+
+
+
+.grid .content-wrapper .img-wrapper img {
+    width: 100%;
+    transition: .8s ease;
+
+}
+
+.grid .content-wrapper .text-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    z-index: 300;
+}
+
+.grid .content-wrapper .text-wrapper:hover {
+    cursor: pointer;
+}
+
+.grid .content-wrapper .text-wrapper:hover i {
+    margin-left: 15px;
+}
+
+.img-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+.grid .content-wrapper .text-wrapper p {
+    color: #091930;
+    font-weight: 500;
+}
+
+.grid .content-wrapper .text-wrapper i {
+    margin-left: 5px;
+    transition: .5s ease;
+}
+
+/* List of Courses */
+
+/* Footer */
+
+.divider {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.divider-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.divider-wrapper img {
+    width: 100%;
+}
+
+footer {
+
+    background: #081527;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px !important;
+
+
+}
+
+footer .row {
+    padding-top: 40px;
+
+}
+
+footer .row h3 {
+    font-weight: 600;
+    font-size: 4vh;
+}
+
+footer .row h5 {
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+footer .row p {
+    margin-bottom: 30px;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+footer .row ul li {
+    margin-bottom: 10px;
+}
+
+footer .row .links ul li a {
+    color: #DFDFDF;
+    font-weight: 400;
+}
+
+footer .social-media {
+    margin-top: 40px;
+}
+
+footer .social-media li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer .copyright p {
+    font-size: 2vh;
+    margin-bottom: 5px;
+}
+
+footer .copyright .privacy a {
+
+    font-size: 2vh;
+    color: #DFDFDF;
+
+}
+
+/* Footer */
+
+
+/* Sign In Page */
+
+.sign-in-nav .navbar-brand {
+    color: #DFDFDF !important;
+    font-weight: 600;
+}
+
+.sign-in-nav p {
+    display: none;
+}
+
+.sign-in-nav .sign-up-link {
+    background: none;
+    border: 1px solid #DFDFDF;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #DFDFDF;
+    font-weight: 500;
+    transition: .4s all ease;
+    text-decoration: none;
+}
+
+.sign-in-nav .sign-up-link:hover {
+    background: #DFDFDF;
+    color: #091930;
+}
+
+.sign-in-grid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sign-in-grid .img-sign-in {
+    width: 100%;
+    display: none;
+}
+
+.sign-in-grid .img-sign-up {
+    display: none;
+}
+
+
+
+.sign-in-grid .sign-in-wrapper {
+    text-align: center;
+}
+
+.sign-in-grid .sign-in-wrapper .back {
+    color: #DFDFDF;
+    margin-top: 170px;
+    display: block;
+}
+
+.sign-in-grid .sign-in-wrapper .login-title {
+    font-size: 3vh;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.form-wrapper label {
+    color: #C4C4C4;
+}
+
+.form-wrapper .input-wrapper {
+    position: relative;
+}
+
+.form-wrapper .input-wrapper i {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 14px;
+}
+
+.form-wrapper .input-wrapper input {
+    background: #081527;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+
+    color: #DFDFDF;
+    width: 85%;
+}
+
+.form-wrapper .input-wrapper input:focus {
+    outline: rgba(196, 196, 196, 1);
+}
+
+
+
+.btn-sign-in {
+    background: #C4C4C4;
+    color: #081527;
+    border: none;
+    display: block;
+    width: 80%;
+    padding: 10px 14px;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 600;
+    transition: .4s all ease;
+}
+
+.overlay .text {
+    display: none;
+}
+
+
+
+.btn-sign-in:hover {
+    background: none;
+    border: 1px solid #DFDFDF;
+    color: #DFDFDF;
+}
+
+/* Sign In Page */
+
+/* Tablet Version */
+@media (min-width: 768px) {
+
+    .number-count {
+        background: #081527;
+        padding-top: 40px;
+    }
+
+    .divider {
+        margin-top: 70px;
+    }
+
+    .text-jumbo {
+        width: 50%;
+    }
+
+    .jumbotron h1,
+    .jumbotron p {
+        margin-bottom: 30px;
+    }
+
+    .jumbotron h1 {
+        margin-top: 80px;
+    }
+
+
+    /* List of Courses */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    footer .row h5 {
+        margin-top: 42px;
+    }
+
+    footer .row p {
+        line-height: 1.3;
+    }
+
+    footer .row .links ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer .row .links ul li a {
+        font-weight: 500;
+    }
+
+    footer .row .social-media {
+        float: right;
+        margin-right: 35px;
+    }
+
+    footer .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    footer .copyright p {
+        font-size: 2.3vh;
+    }
+
+    footer .copyright .privacy {
+        margin-right: 35px;
+    }
+
+
+    /* Sign In Page */
+    .sign-in-grid {
+        width: 100%;
+    }
+
+    .sign-in-nav {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sign-in-nav .sign-up-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .sign-in-nav .sign-up-wrapper p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .sign-in-nav .navbar-brand {
+        font-size: 3vh;
+    }
+
+
+
+    .sign-in-grid .img-sign-in {
+
+        width: 100%;
+        margin-top: -70px;
+        display: block;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        z-index: -20;
+
+
+    }
+
+    .sign-in-grid .sign-up-img img {
+        transform: translateY(-200px);
+    }
+
+    .sign-in-grid .sign-in-img img {
+        transform: translate(, -100px);
+    }
+
+
+
+
+
+
+
+
+    .sign-in-grid .sign-in-wrapper {
+        text-align: left;
+
+    }
+
+    .sign-in-grid .sign-in-wrapper .back {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .sign-in-grid .sign-in-wrapper h1 {
+        text-align: center;
+    }
+
+    .form-wrapper .input-wrapper i {
+        position: absolute;
+        top: 25%;
+        left: 3%;
+        font-size: 18px;
+    }
+
+    .form-wrapper .input-wrapper input {
+        padding-left: 40px !important;
+    }
+
+
+
+    .overlay {
+        background: rgba(2, 0, 36, 0.4);
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .overlay .text {
+        display: none;
+    }
+
+
+
+
+
+    .form-wrapper {
+        /* border: 1px solid white; */
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    .form-wrapper label {
+        color: #C4C4C4;
+        font-size: 2.3vh;
+        text-align: left !important;
+    }
+
+    .form-wrapper .input-wrapper {
+        position: relative;
+    }
+
+    .form-wrapper .input-wrapper input {
+
+        width: 100%;
+        padding: 10px 12px;
+    }
+
+    .btn-sign-in {
+        width: 60%;
+        padding: 13px 15px;
+    }
+
+
+
+    /* Sign In Page */
+
+    .you-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .you-will-gain {
+        padding: 40px 30px 20px;
+        width: 100%;
+        margin-right: 10px;
+        line-height: 1.3;
+
+    }
+
+    .form-container {
+        width: 90%;
+
+    }
+
+
+
+    .img-learn-wrapper img {
+        max-width: 350px;
+        width: 100%;
+
+    }
+
+    .learn-text {
+        margin-left: -40px;
+    }
+
+    .learn-text {
+        text-align: left;
+
+    }
+
+    .learn-text h4 {
+        margin-top: 30px;
+        font-size: 3vh;
+    }
+
+    .learn-text p {
+        margin-bottom: 30px;
+    }
+
+    .photo-profile {
+
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+
+/* Desktop Only */
+@media (min-width: 998px) {
+
+    .number-count h5 {
+        font-size: 3.5vh;
+
+    }
+
+    .number-count {
+        padding: 50px 100px;
+
+    }
+
+    .number-count div {
+        margin: 0;
+    }
+
+    .number-count p {
+        font-size: 3vh;
+    }
+
+
+    .navbar {
+        position: sticky;
+        z-index: 999;
+    }
+
+    .navbar .container {
+        margin-top: 15px;
+        width: 75%;
+
+    }
+
+    .navbar .navbar-nav .nav-item {
+        font-size: 2.2vh;
+        margin-right: 10px;
+    }
+
+    .jumbotron {
+        margin-top: -90px;
+
+        height: 500px;
+    }
+
+    .jumbotron .gradient {
+        height: 500px;
+    }
+
+    .jumbotron h1 {
+        margin-top: 180px;
+        font-size: 6vh;
+    }
+
+    .navbar-dark {
+        background: none !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 30px;
+    }
+
+    .text-jumbo {
+        width: 45%;
+        margin-left: 50px;
+    }
+
+    #sign-in {
+        overflow: hidden;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    /* List of Courses */
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    #ds {
+        grid-row: 1/3;
+        height: 450px;
+
+
+    }
+
+    #ds .img-wrapper {
+        height: 460px;
+        overflow: hidden;
+    }
+
+    #ds .img-wrapper .bg-gradient {
+        height: 460px;
+    }
+
+    #ds .img-wrapper img {
+        min-width: 400px;
+        width: 700px;
+        height: 490px;
+    }
+
+    #ds .text-wrapper {
+        transform: translateY(220px);
+
+    }
+
+    #ml {
+        grid-row: 2;
+        grid-column: 2/4;
+    }
+
+    /* List of Courses */
+
+    .divider {
+        margin-top: 70px;
+    }
+
+    /* Sign In Page */
+    .sign-in-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sign-in-nav .navbar-brand {
+        font-size: 5vh;
+    }
+
+    .sign-in-nav .sign-up-wrapper {
+        margin-right: 75px;
+    }
+
+    .sign-in-grid {
+        display: flex;
+
+    }
+
+
+    .sign-in-grid .img-sign-in {
+        width: 500px;
+        height: auto;
+        /* z-index: -999 !important; */
+    }
+
+    .sign-in-grid .sign-in-img img {
+        transform: translate(-400px, 0px);
+
+    }
+
+    .sign-in-grid .sign-up-img img {
+        transform: translateY(0px);
+    }
+
+    .sign-in-grid .img-sign-in .overlay {
+        height: 100%;
+        z-index: 1;
+    }
+
+    .sign-in-grid .sign-in-wrapper {
+        width: 40%;
+        margin: 0 auto;
+
+    }
+
+    .sign-in-grid .sign-in-wrapper .login-title {
+        font-size: 4vh;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .sign-in-grid .sign-in-wrapper .form-wrapper {
+        margin: 0;
+    }
+
+    .sign-in-grid .sign-in-wrapper .form-wrapper label {
+        font-size: 3vh;
+    }
+
+    .sign-in-grid .sign-in-wrapper .btn-sign-in {
+        margin: 0;
+    }
+
+    .overlay .text {
+
+        width: 80%;
+        left: 50px;
+        display: block;
+        padding: 30px;
+        position: absolute;
+        bottom: 20%;
+        text-align: center;
+
+    }
+
+    .overlay .text h1 {
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    .overlay .text p {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .text .btn-sign-up {
+        display: inline-block;
+        margin-top: 20px;
+        background: none;
+        border: 1px solid #DFDFDF;
+        padding: 10px 15px;
+        border-radius: 20px;
+        color: #DFDFDF;
+        font-weight: 500;
+        transition: .4s all ease;
+        cursor: pointer;
+
+    }
+
+    .text .btn-sign-up:hover {
+        background: #DFDFDF !important;
+        color: #091930 !important;
+    }
+
+
+
+    .sign-in-grid .sign-in-wrapper .back {
+        text-align: center;
+        margin-top: 180px;
+        float: right;
+    }
+
+    /* Sign In Page */
+    .you-wrapper {
+        width: 100%;
+        margin: 0 auto;
+
+
+    }
+
+
+
+    .you-will-gain {
+        padding: 40px 30px;
+        width: 100%;
+        line-height: 1.4;
+
+    }
+
+    .form-container {
+        width: 80%;
+        margin-left: 80px;
+
+    }
+
+    .instructors {
+
+        width: 100%;
+    }
+
+
+
+    .img-learn-wrapper {
+
+        height: 400px;
+    }
+
+    .img-learn-wrapper img {
+        max-width: 400px;
+
+        width: 100%;
+
+    }
+
+    .learn-text h4 {
+        font-size: 4.3vh;
+    }
+
+    .learn-text p {
+        font-size: 3vh;
+    }
+
+    .learn-text a {
+        font-size: 2.9vh;
+    }
+
+
+}
